@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💃 Hello World Dance!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="disco-ball">🪩</div>
+    <div id="title">
+      <span class="letter" style="--i:0">H</span>
+      <span class="letter" style="--i:1">e</span>
+      <span class="letter" style="--i:2">l</span>
+      <span class="letter" style="--i:3">l</span>
+      <span class="letter" style="--i:4">o</span>
+      <span class="letter" style="--i:5">&nbsp;</span>
+      <span class="letter" style="--i:6">W</span>
+      <span class="letter" style="--i:7">o</span>
+      <span class="letter" style="--i:8">r</span>
+      <span class="letter" style="--i:9">l</span>
+      <span class="letter" style="--i:10">d</span>
+      <span class="letter" style="--i:11">!</span>
+    </div>
+    <div id="subtitle">点击换舞步 🕺</div>
+    <div id="controls">
+      <button class="dance-btn active" data-dance="bounce">🔄 波浪</button>
+      <button class="dance-btn" data-dance="spin">🌀 旋转</button>
+      <button class="dance-btn" data-dance="wiggle">🤪 扭动</button>
+      <button class="dance-btn" data-dance="jump">⬆️ 跳跃</button>
+      <button class="dance-btn" data-dance="moonwalk">🌙 太空步</button>
+    </div>
+  </div>
+
+  <div id="particles"></div>
+  <div id="floor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
